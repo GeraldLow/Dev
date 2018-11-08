@@ -1,0 +1,225 @@
+html, body {
+    font-size: 37.5px;
+}
+
+.redpacket_cover {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000, 000, 000, 0.7);
+    z-index: 20;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.redpacket_wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 21;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.redpacket_wrap .red_packet {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 22;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.redpacket_wrap .red_packet2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 22;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.redpacket_wrap .red_packet2 img {
+    width: 1.24rem;
+    height: 2.38666665rem;
+    cursor: pointer;
+}
+
+.redpacket_wrap .red_packet .red_packet_box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.24rem;
+    height: 2.38666665rem;
+    cursor: pointer;
+}
+
+.redpacket_wrap .red_packet .red_packet_box img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.redpacket_wrap .red_packet .red_packet_box .red_now {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.redpacket_wrap .red_packet .treasurebox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3.2rem;
+    height: 3.386666666666667rem;
+    cursor: pointer;
+}
+
+.redpacket_wrap .red_packet .treasurebox img {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.redpacket_wrap .red_packet .treasurebox .red_now {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.redpacket_wrap .red_packet_number {
+    position: fixed;
+    left: 0;
+    top: 1.3333333rem;
+    background: url("../images/rednormal.png") no-repeat;
+    background-size: 1.24rem 2.386666666666667rem;
+    width: 3rem;
+    height: 2.386666666666667rem;
+    line-height: 3rem;
+    font-size: 0.42666666666rem;
+    text-align: end;
+    color: yellow;
+}
+
+.redpacket_wrap .red_packet_time {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("../images/time.png") no-repeat;
+    width: 2rem;
+    height: 1.333333333333333rem;
+    line-height: 1.333333333rem;
+    background-size: 1.333333333333333rem 1.333333333333333rem;
+    font-size: 0.4266666666666667rem;
+    color: yellow;
+    text-align: end;
+    z-index: 30;
+}
+
+.redpacket_wrap .prize {
+    width: 9.546666666666667rem;
+    height: 8.533333333333333rem;
+    background: url("../images/prizePopup.png") no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 35;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.redpacket_wrap .prize .title {
+    font-size: 0.5333333333333333rem;
+    margin-top: 4rem;
+    text-align: center;
+    color: yellow;
+}
+
+.redpacket_wrap .prize .text {
+    font-size: 0.3733333333333333rem;
+    line-height: 0.6rem;
+    color: #fff;
+    text-align: center;
+    width: 4.8rem;
+    margin: 0 auto;
+}
+
+.redpacket_wrap .prize .btn {
+    margin: 0.1666rem auto 0;
+    width: 1.5rem;
+    height: 0.9rem;
+    color: #9e0b0f;
+    font-size: 0.4266666rem;
+    font-weight: 600;
+    line-height: 0.9rem;
+    border: 2px solid #9e0b0f;
+    background-color: #fff799;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.redpacket_wrap .image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 22;
+    overflow: hidden;
+}
+
+.redpacket_wrap .image img {
+    width: 1.24rem;
+    height: 2.38666665rem;
+    cursor: pointer;
+}
+
+canvas.dots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
